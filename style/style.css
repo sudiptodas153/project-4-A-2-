@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-style: normal;
+}
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #F7F7F7;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+}
+
+.img-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.menubar ul {
+    gap: 30px;
+}
+
+
+.li-1 {
+    color: #FEA301;
+}
+
+.li-2 {
+    color: #01ACFD;
+}
+
+.li-3 {
+    color: #05D4DF;
+}
+
+.li-4 {
+    color: #5D58EF;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.nav-btn {
+    width: 120px;
+    height: 35px;
+    background-color: #FEA301;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+    border: none;
+}
+
+
+
+.nav-icon {
+    display: none;
+}
+
+
+
+/* Banner */
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner-title2 {
+    display: none;
+
+}
+
+.banner-span {
+    color: #FEA301;
+}
+
+.banner-span2 {
+    color: #01ACFD;
+}
+
+
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-btn{
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+    border: none;
+}
+
+
+
+/* Main */
+
+main{
+    margin-top: 40px;
+}
+
+.standard-curriculum{
+    background-image: url('../assets/bg.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    header {
+        margin-top: 10px;
+    }
+
+    .menubar {
+        display: none;
+    }
+
+    .btn-parent {
+        display: none;
+    }
+
+    .nav-title {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+
+    }
+
+
+    /* Banner */
+
+    .banner {
+        margin-top: 10px;
+        border-top: 1px solid #FEA301;
+        flex-direction: column-reverse;
+    }
+
+    .banner-img {
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .banner-captions {
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-description{
+        font-size: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: black;
+        font-weight: 600;
+    }
+    
+
+}
