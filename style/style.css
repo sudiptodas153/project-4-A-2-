@@ -413,8 +413,8 @@ footer{
 
     .headline{
         border: none;
-        
-        color: black;
+        background-color: #1482db93;
+        color: white;
         border-radius: 2px;
         box-shadow: 0 5px 50px 0 rgba(245, 9, 9, 0.356);
         margin: 0 auto;
