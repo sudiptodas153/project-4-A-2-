@@ -138,7 +138,7 @@ nav li a {
 
 main {
     margin-top: 70px;
-    margin-bottom: 400px;
+    
     
 }
 
@@ -329,8 +329,11 @@ text-align: center;
 
 
 .our-stories{
-    background-image: url('../assets/bg.png');
-    background: linear-gradient(to bottom, #F7F7F7, #fea10181);
+    
+    
+    background-image: url('../assets/bg.png'), linear-gradient(to bottom, #F7F7F7, #fea10181);
+    
+   
     margin-top: 40px;
     padding: 20px 20px;
 }
@@ -338,8 +341,86 @@ text-align: center;
 .view-btn{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
+
+
+footer{
+    background-color: #fd01b14d;
+   
+    padding: 50px;
+   
+}
+
+
+.footer-caption{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-caption> img{
+   
+    width: 60px;
+    height: 60px;
+}
+
+.footer-caption >h3{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: white;
+}
+
+.footer-description{
+    font-size: 15px;
+    color: white;
+}
+
+
+.footer-a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+.footer-title{
+    color: white;
+}
+
+
+.footer-a > a{
+     text-decoration: none;
+     color: white;
+}
+
+
+.icon-title{
+    color: white;
+}
+
+
+.footer-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  
+    }
+
+
+
+    .headline{
+        background-color: #d816ff;
+        color: white;
+        margin: 0 20px;
+        font-size: 13px;
+        padding: 5px 0;
+        font-weight: 800;
+    }
+
+    
 
 
 
@@ -432,4 +513,12 @@ text-align: center;
             gap: 10px;
         }
 
+
+
+        .footer-parent{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 30px;
+          
+            }
 }
